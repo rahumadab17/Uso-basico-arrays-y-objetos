@@ -135,7 +135,7 @@ var dental = [{
 //---------------------------------------RADIOLOGÍA-----------------------------------------
 
 document.getElementById("tituloRadio").innerHTML = `<h3>Atención en RADIOLOGÍA:</h3>`
-document.getElementById("atenciónRadio").innerHTML = `<p><b>Primera atención</b> ${radiologia[0].paciente} - ${radiologia[0].prevision} | <b>Última atención</b> ${radiologia[4].paciente} - ${radiologia[4].prevision}</p>`
+document.getElementById("atencionRadio").innerHTML = `<p><b>Primera atención</b> ${radiologia[0].paciente} - ${radiologia[0].prevision} | <b>Última atención</b> ${radiologia[4].paciente} - ${radiologia[4].prevision}</p>`
 
 var tablaRadio = "<tr><th>Hora</th><th>Especialista</th><th>Paciente</th><th>RUT</th><th>Prevision</th></tr> ";
 
@@ -153,7 +153,7 @@ document.getElementById("cuerpo-tabla1").innerHTML = tablaRadio
 //-----------------------------------------TRAUMATOLOGÍA-----------------------------------------
 
 document.getElementById("tituloTrauma").innerHTML = `<h3>Atención en TRAUMATOLOGÍA:</h3>`
-document.getElementById("atenciónTrauma").innerHTML = `<p><b>Primera atención</b> ${traumatologia[0].paciente} - ${traumatologia[0].prevision} | <b>Última atención</b> ${traumatologia[6].paciente} - ${traumatologia[6].prevision}</p>`
+document.getElementById("atencionTrauma").innerHTML = `<p><b>Primera atención</b> ${traumatologia[0].paciente} - ${traumatologia[0].prevision} | <b>Última atención</b> ${traumatologia[6].paciente} - ${traumatologia[6].prevision}</p>`
 
 var tablaTrauma = "<tr><th>Hora</th><th>Especialista</th><th>Paciente</th><th>RUT</th><th>Prevision</th></tr> ";
 
@@ -171,7 +171,7 @@ document.getElementById("cuerpo-tabla2").innerHTML = tablaTrauma
 //-----------------------------------------------DENTAL-----------------------------------------
 
 document.getElementById("tituloDental").innerHTML = `<h3>Atención en DENTAL:</h3>`
-document.getElementById("atenciónDental").innerHTML = `<p><b>Primera atención</b> ${dental[0].paciente} - ${dental[0].prevision} | <b>Última atención</b> ${dental[5].paciente} - ${dental[5].prevision}</p>`
+document.getElementById("atencionDental").innerHTML = `<p><b>Primera atención</b> ${dental[0].paciente} - ${dental[0].prevision} | <b>Última atención</b> ${dental[5].paciente} - ${dental[5].prevision}</p>`
 
 var tablaDental = "<tr><th>Hora</th><th>Especialista</th><th>Paciente</th><th>RUT</th><th>Prevision</th></tr> ";
 
